@@ -56,6 +56,33 @@
         .contact-info a:hover {
             text-decoration: underline;
         }
+        .section {
+            width: 100%;
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #0073e6;
+            padding-bottom: 5px;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .job-item {
+            margin-bottom: 20px;
+        }
+        .job-item ul {
+            list-style: none;
+            padding: 0;
+        }
+        .job-item ul li {
+            padding: 5px 0;
+        }
+        .job-title {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .job-duration {
+            font-size: 16px;
+        }
     </style>
 </head>
 <body>
@@ -65,6 +92,7 @@
     </header>
 
     <div class="container">
+
         <div class="contact-info">
             <p><a href="mailto:shiyi.ding18@gmail.com">shiyi.ding18@gmail.com</a> | <a href="https://www.linkedin.com/in/shiyi-ding" target="_blank">LinkedIn</a> | <a href="https://github.com/Shiyi-D" target="_blank">GitHub</a> | <a href="https://www.kaggle.com/infinity2118" target="_blank">Kaggle</a></p>
         </div>
@@ -79,17 +107,29 @@
             </ul>
         </nav>
 
-        <div id="about" class="section">
-            <h2>About Me</h2>
-            <p>Hi, I'm Shiyi (Beth) Ding, interested in data science, machine learning, computer vision, quantitative analysis, and neuroscience. Eager to develop data-driven methods to reduce manpower investment, and build automatic, effective, and robust machine learning models efficiently. 
-            I am majoring in Computer Technology (Master of Engineering) at UCAS (after graduating from Statistics, CSU). My research mainly focuses on data analysis and deep learning.</p>
+        <div class="section">
+            <div class="job-item">
+                <ul>
+                    <li>
+                        <p class="job-title"><strong>Grade Leader</strong>, Mathematics and Statistics Department, Central South University (CSU) (2021-2022)</p>
+                        <ul>
+                            <li>Managed grade affairs and organized grade activities</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="job-item">
+                <ul>
+                    <li>
+                        <p class="job-title"><strong>Minister of External Affairs Department of Student Union</strong>, Mathematics and Statistics Department, Central South University (CSU) (2020-2021)</p>
+                        <ul>
+                            <li>Raised external funds to support student union activities</li>
+                            <li>Planned and organized the first Mathematics Culture Festival of Central South University</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
-
-        <div id="contact" class="section">
-            <h2>Contact</h2>
-            <p>If you would like to get in touch with me, please feel free to email me at <a href="mailto:shiyi.ding18@gmail.com">shiyi.ding18@gmail.com</a> or connect with me on <a href="https://www.linkedin.com/in/shiyi-ding" target="_blank">LinkedIn</a>.</p>
-        </div>
-
     </div>
 </body>
 </html>
